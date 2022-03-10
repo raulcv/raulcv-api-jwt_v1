@@ -1,0 +1,3 @@
+> Need to implement getItem with model and query parameters to reuse in all where requires it.
+> Need to sent role id to login and refresh and register new user in auth file or take for default roles
+> Need to call all environment variables on config and then import that on all where it needs to be used
