@@ -24,8 +24,20 @@ const test = {
     }
 };
 
+const prod = {
+    app: {
+        host: process.env.APP_HOST,
+        port: process.env.APP_PORT
+    },
+    db: {
+        host: process.env.DB_HOST + '://',
+        port: process.env.DB_USER_NAME + ':' + process.env.DB_PASSWORD + '@' + process.env.DB_CLUSTER + '.' + process.env.DB_PORT,
+        name: '/' + process.env.DB_NAME + '?retryWrites=true&w=majority'
+    }
+};
 const serverConfig = {
     dev,
-    test
+    test,
+    prod
 };
 module.exports = serverConfig[env];
