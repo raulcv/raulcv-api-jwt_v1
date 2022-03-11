@@ -3,7 +3,6 @@ const { createItem } = require('../../middlewares/database')
 const { handleError } = require('../../middlewares/utils')
 const { matchedData } = require('express-validator')
 const { roleExists } = require('./helpers')
-
 /**
  * Create item function called by route
  * @param {Object} req - request object
