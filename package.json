@@ -12,7 +12,7 @@
     "test:e2e": "cross-env NODE_ENV=test npm run fresh && npm run mocha",
     "test": "npm run coverage:clean && npm run test:unit && npm run test:e2e && npm run coverage",
     "dev": "export NODE_ENV=dev && nodemon -r dotenv/config src/server.js",
-    "start": "cross-env NODE_ENV=prod node src/server.js",
+    "start": "cross-env NODE_ENV=prod pm2 src/server.js",
     "prettier": "prettier --write --config .prettierrc.json \"**/*.js\"",
     "lint": "eslint --fix --config .eslintrc.json \"**/*.js\"",
     "coverage": "npm run coverage:merge && npm run coverage:merge-report",
