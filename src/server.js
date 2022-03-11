@@ -13,7 +13,7 @@ const appport = serverConfig.app.port;
 const hostname = serverConfig.app.host;
 
 //settings
-app.set("port", appport);
+//app.set("port", appport);
 app.set("json spaces", 2);
 
 // i18n
@@ -39,7 +39,7 @@ app.use(Routes)
 // app.use("/api/user", require("./routes/user"));
 
 //starting server
-app.listen(process.env.PORT || app.get("port"), () => {
+app.listen(process.env.PORT || 3000, () => {
   console.log(`server listeting on port http://${hostname}:${app.get("port")}/`.yellow);
 });
 
