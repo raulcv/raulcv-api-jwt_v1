@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const morgan = require('morgan');
-const colors = require('colors');
+//const colors = require('colors');
 const path = require('path');
 const initMongoDB = require('./config/database.js');
 const i18n = require('i18n')
@@ -40,7 +40,8 @@ app.use(Routes)
 
 //starting server
 app.listen(process.env.PORT || 3000, () => {
-  console.log(`server listeting on port http://${hostname}:${app.get("port")}/`.yellow);
+  //console.log(`server listeting on port http://${hostname}:${app.get("port")}/`.yellow);
+   console.log(`server listeting on port 3000`);
 });
 
 //Initialization MongoDB
