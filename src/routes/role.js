@@ -4,7 +4,7 @@ require('../config/passport')
 const passport = require('passport')
 const requireAuth = passport.authenticate('jwt', { session: false })
 const trimRequest = require('trim-request')
-const { getRoles, getRole, createRole, updateRole, deleteRole } = require('../controllers/role')
+const { getRoles, getRole, createRole, updateRole, deleteRole } = require('../controllers/Role')
 const { validateCreateRole, validateUpdateRole, validateUpdateRoleState,
     validateGetRole, validateDeleteRole } = require('../controllers/Role/validators')
 const { roleAuthorization } = require('../controllers/auth')
