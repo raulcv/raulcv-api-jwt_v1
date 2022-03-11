@@ -39,7 +39,7 @@ app.use(Routes)
 // app.use("/api/user", require("./routes/user"));
 
 //starting server
-app.listen(app.get("port"), () => {
+app.listen(process.env.PORT || app.get("port"), () => {
   console.log(`server listeting on port http://${hostname}:${app.get("port")}/`.yellow);
 });
 
