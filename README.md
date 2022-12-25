@@ -1,6 +1,7 @@
-API Rest with nodejs  / JWT-API
+Full API Rest with nodejs  / JWT-API
+# The purpose of this porject is to be used in the future as external authentication service
 
-# API Rest with NodeJS and Express, this project is build whit HTTP verbs:
+# API Rest with NodeJS and Express, this project was built whit HTTP verbs:
 
 * GET
 * POST
@@ -23,5 +24,7 @@ For running execute the following command:
 * type in the terminal, npm install
     create .env file and type your mongodb database credentials in .env file
 * type in the terminal, npm run dev
+
+Thanks for watching my repo
 
 Autor: raulcv
