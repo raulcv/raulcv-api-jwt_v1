@@ -16,6 +16,16 @@
 
 # Support for Project snippet scope
 !.vscode/*.code-snippets
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
 
 # nyc test coverage - this is for log prettier
 .nyc_output
