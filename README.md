@@ -1,4 +1,4 @@
-## Full API Rest with nodejs with Authetication and E2E and unit testing
+## API Rest Full with nodejs, included Authetication and E2E and unit testing
 
 ### The purpose of this porject is to be used in the future as external authentication service
 
