@@ -40,17 +40,14 @@ For running execute the following command:
 >> In your local machine open some cmd, bash etc command line tool. Located where you will have your local repository. You can navigate with cd somepath/mydirectory etc.
 
 ```bash
-mkdir myproject 
-cd myproject
-```
-```bash
 git glone https://github.com/raulcv/raulcv-api-v1.git
 ```
->> Enter to your  local repository created with git clone
+
+> Enter to your  local repository created with git clone
 ```bash
 cd raulcv-api-v1
 ```
->> create a .env or you can created it manually into your project folder
+> create a .env or you can created it manually into your project folder
 ```bash
 touch .env
 ```
